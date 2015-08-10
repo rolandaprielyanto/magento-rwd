@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kolibrii_Cms>
+            <version>0.1.0</version>
+        </Kolibrii_Cms>
+    </modules>
+	<global>
+        <resources>
+            <kolibrii_cms_setup>
+                <setup>
+                    <module>Kolibrii_Cms</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+            </kolibrii_cms_setup>
+        </resources>
+        <cms>
+        </cms>
+    </global>
+</config>
